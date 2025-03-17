@@ -1,0 +1,36 @@
+/* Reset default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Base styles for common elements */
+  h1, h2, h3 {
+    margin: 0 0 10px;
+  }
+  
+  p {
+    margin: 0 0 10px;
+  }
+  
+  /* Grid layout for character cards */
+  .character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .character-grid {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .character-grid {
+      grid-template-columns: 1fr;
+    }
+  }

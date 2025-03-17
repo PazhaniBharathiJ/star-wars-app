@@ -1,0 +1,22 @@
+.character-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  .character-card h3 {
+    margin: 0 0 10px;
+  }
+  
+  .character-card p {
+    margin: 5px 0;
+  }
+  
+  .character-card button {
+    margin: 5px 5px 0 0;
+  }
+  
+  /* Optional: Style the "Added" state */
+  .character-card .button.secondary.added {
+    background-color: #28a745; /* Green for success */
+  }

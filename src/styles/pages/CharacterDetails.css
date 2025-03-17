@@ -1,0 +1,22 @@
+.character-details {
+    padding: 20px;
+  }
+  
+  .details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .character-details h2 {
+    margin-top: 20px;
+  }
+  
+  .character-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .character-details button {
+    margin-top: 20px;
+  }

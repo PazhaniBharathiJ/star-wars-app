@@ -1,0 +1,13 @@
+.favorites {
+    padding: 20px;
+  }
+  
+  .favorites h1 {
+    margin-bottom: 20px;
+  }
+  
+  .character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
